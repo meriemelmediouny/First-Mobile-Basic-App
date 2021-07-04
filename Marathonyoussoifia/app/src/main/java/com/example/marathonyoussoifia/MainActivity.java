@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public  void openFormulaire(){
-        Intent intent = new Intent(this, Formulaire.class);
+        Intent intent = new Intent(this, Admin.class);
         startActivity( intent);
     }
 }
